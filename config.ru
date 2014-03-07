@@ -1,1 +1,1 @@
-require 'ip'
+require './ip'
