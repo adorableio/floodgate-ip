@@ -1,3 +1,6 @@
 machine:
   ruby:
     version: ruby-2.1.6
+test:
+  override:
+    - ruby ./test/ip_test.rb
