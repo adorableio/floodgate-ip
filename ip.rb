@@ -1,7 +1,8 @@
-require 'sinatra'
+require 'sinatra/base'
 
-get '/' do
-  content_type :text
-  request.ip
+class Ip < Sinatra::Base
+  get '/' do
+    content_type :text
+    request.ip
+  end
 end
-
