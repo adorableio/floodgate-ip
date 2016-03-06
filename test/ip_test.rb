@@ -6,7 +6,7 @@ class IpTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
   def app
-    Ip.new
+    Sinatra::Application
   end
 
   def test_redirect_logged_in_users_to_dashboard

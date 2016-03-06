@@ -3,4 +3,4 @@ machine:
     version: ruby-2.1.6
 test:
   override:
-    - ruby ./test/ip_test.rb
+    - bundle exec ruby ./test/ip_test.rb
